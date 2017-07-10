@@ -1,3 +1,6 @@
+import turtle
+from math import pi
+
 def polyline(t, n, length, angle):
 	for i in range(n):
 		t.fd(length)
